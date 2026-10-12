@@ -5,8 +5,8 @@ class Program
 {
     static void Main()
     {
-        GameBoard gameBoard = new GameBoard();
+        GameBoard gameBoard = new();
 
-        gameBoard.Board();
+        gameBoard.Play();
     }
 }
